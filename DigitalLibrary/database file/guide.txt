@@ -1,0 +1,9 @@
+steps to import the database
+
+1) Start your xampp server
+2) Open php myadmin
+3) create database by any name (but in my case db name is : digital_library)
+4) click on import
+5) click on save / go
+
+done!!!!!

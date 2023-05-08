@@ -1,0 +1,27 @@
+<table>
+<tr style="color:black"><td>Book Name:</td><td><?php echo $bookname ?></td><td rowspan='8'></td></tr>
+<tr style="color:black"><td>Book Detail:</td><td><?php echo $bookdetail ?></td><td></td></tr>
+<tr style="color:black"><td>Book Author:</td><td><?php echo $bookauthor ?></td><td></td></tr>
+<tr style="color:black"><td>Book Publisher:</td><td><?php echo $bookpub ?></td><td></td></tr>
+<tr style="color:black"><td>Book Branch:</td><td><?php echo $branch ?></td><td></td></tr>
+<tr style="color:black"><td>Book Price:</td><td><?php echo $bookprice ?></td><td></td></tr>
+<tr style="color:black"><td>Book Available:</td><td><?php echo $bookava ?></td><td></td></tr>
+<tr style="color:black"><td>Book Rent:</td><td><?php echo $bookrent ?></td><td></td></tr>
+</table>
+
+
+
+
+
+
+
+<img width='150px' height='150px' style='border:1px solid #333; float:left; margin-top:5px;' src=""
+                        alt="">
+<p style="color:black"><u>Book Name:</u>&nbsp&nbsp<?php echo $bookname ?></p>
+                        <p style="color:black"><u>Book Detail:</u>&nbsp&nbsp<?php echo $bookdetail ?></p>
+                        <p style="color:black"><u>Book Author:</u>&nbsp&nbsp<?php echo $bookauthor ?></p>
+                        <p style="color:black"><u>Book Publisher:</u>&nbsp&nbsp<?php echo $bookpub ?></p>
+                        <p style="color:black"><u>Book Branch:</u>&nbsp&nbsp<?php echo $branch ?></p>
+                        <p style="color:black"><u>Book Price:</u>&nbsp&nbsp<?php echo $bookprice ?></p>
+                        <p style="color:black"><u>Book Available:</u>&nbsp&nbsp<?php echo $bookava ?></p>
+                        <p style="color:black"><u>Book Rent:</u>&nbsp&nbsp<?php echo $bookrent ?></p>

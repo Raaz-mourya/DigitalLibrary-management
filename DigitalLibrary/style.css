@@ -1,0 +1,84 @@
+:root {
+    --yellow: #f39c12;
+    --blue: rgb(0, 170, 255);
+    --white: #fff;
+  }
+
+.container,
+.row,
+.h2 {
+    text-align: center;
+}
+
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.imagelogo {
+    width: 600px;
+}
+
+.login-form-1 {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+    text-align: center;
+    color: #333;
+    font-size: 30PX;
+    font-weight: 700;
+}
+.login-form-2 h3 {
+    text-align: center;
+    font-size: 30PX;
+    font-weight: 700;
+    color: var(--white);
+}
+.login-form-2 {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--blue);
+}
+.login-container form {
+    padding: 10%;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.login-form-1 .btnSubmit {
+    color: #fff;
+    background-color: var(--blue);
+}
+
+.btnSubmit:hover {
+    background-color: var(--yellow);
+}
+
+
+@media screen and (max-width: 450px) {
+    .imagelogo {
+        width: 350px;
+    }
+    .login-form-1 h3, .login-form-1 h3 {
+        font-size: 20PX;
+    }
+    .form-control {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+    }
+    .btnSubmit {
+        border-radius: 0.6rem;
+        font-size: 15px;
+    }
+}
